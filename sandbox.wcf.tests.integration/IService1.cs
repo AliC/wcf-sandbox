@@ -12,7 +12,6 @@ namespace sandbox.wcf.tests.integration
     [ServiceContract]
     public interface IService1
     {
-
         [OperationContract]
         string GetData(int value);
 
